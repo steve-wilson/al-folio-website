@@ -1,72 +1,428 @@
 ---
 ---
+@inproceedings{oprea-etal-2021-chandler,
+    bibtex_show={true},
+    abbr={EMNLP-Demo},
+    title = "Chandler: An Explainable Sarcastic Response Generator",
+    author = "Oprea, Silviu  and
+      Wilson, Steven  and
+      Magdy, Walid",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-demo.38",
+    pages = "339--349",
+    abstract = "We introduce Chandler, a system that generates sarcastic responses to a given utterance. Previous sarcasm generators assume the intended meaning that sarcasm conceals is the opposite of the literal meaning. We argue that this traditional theory of sarcasm provides a grounding that is neither necessary, nor sufficient, for sarcasm to occur. Instead, we ground our generation process on a formal theory that specifies conditions that unambiguously differentiate sarcasm from non-sarcasm. Furthermore, Chandler not only generates sarcastic responses, but also explanations for why each response is sarcastic. This provides accountability, crucial for avoiding miscommunication between humans and conversational agents, particularly considering that sarcastic communication can be offensive. In human evaluation, Chandler achieves comparable or higher sarcasm scores, compared to state-of-the-art generators, while generating more diverse responses, that are more specific and more coherent to the input.",
+   pdf={https://aclanthology.org/2021.emnlp-demo.38.pdf}
+}
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@inproceedings{elsafoury-2021,
+    abbr={SIGIR},
+    bibtex_show={true},
+author = {Elsafoury, Fatma and Katsigiannis, Stamos and Wilson, Steven and Ramzan, Naeem},
+title = {Does BERT Pay Attention to Cyberbullying?},
+year = {2021},
+isbn = {9781450380379},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3404835.3463029},
+doi = {10.1145/3404835.3463029},
+abstract = {Social media have brought threats like cyberbullying, which can lead to stress, anxiety, depression, and in some severe cases, suicide attempts. Detecting cyberbullying can help to warn/ block bullies and provide support to victims. However, very few studies have used self-attention-based language models like BERT for cyberbullying detection and they typically only report BERT's performance without examining in depth the reasons for its performance. In this work, we examine the use of BERT for cyberbullying detection on various datasets and attempt to explain its performance by analyzing its attention weights and gradient-based feature importance scores for textual and linguistic features. Our results show that attention weights do not correlate with feature importance scores and thus do not explain the model's performance. Additionally, they suggest that BERT relies on syntactical biases in the datasets to assign feature importance scores to class-related wordsrather than cyberbullying-related linguistic features.},
+booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {1900–1904},
+location = {Virtual Event, Canada},
+series = {SIGIR '21},
+pdf= {elsafoury.sigir21.pdf},
+}
+
+@inproceedings{meaney-etal-2021-semeval,
+    abbr={SemEval},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+    title = "{S}em{E}val 2021 Task 7: {H}a{H}ackathon, Detecting and Rating Humor and Offense",
+    author = "Meaney, J. A.  and
+      Wilson, Steven  and
+      Chiruzzo, Luis  and
+      Lopez, Adam  and
+      Magdy, Walid",
+    booktitle = "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.semeval-1.9",
+    doi = "10.18653/v1/2021.semeval-1.9",
+    pages = "105--119",
+    abstract = "SemEval 2021 Task 7, HaHackathon, was the first shared task to combine the previously separate domains of humor detection and offense detection. We collected 10,000 texts from Twitter and the Kaggle Short Jokes dataset, and had each annotated for humor and offense by 20 annotators aged 18-70. Our subtasks were binary humor detection, prediction of humor and offense ratings, and a novel controversy task: to predict if the variance in the humor ratings was higher than a specific threshold. The subtasks attracted 36-58 submissions, with most of the participants choosing to use pre-trained language models. Many of the highest performing teams also implemented additional optimization techniques, including task-adaptive training and adversarial training. The results suggest that the participating systems are well suited to humor detection, but that humor controversy is a more challenging task. We discuss which models excel in this task, which auxiliary techniques boost their performance, and analyze the errors which were not captured by the best systems.",
+    pdf = "https://aclanthology.org/2021.semeval-1.9.pdf",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{wilson2020analyzing,
+    abbr={WebSci},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  selected={true},
+  title={Analyzing temporal relationships between trending terms on twitter and urban dictionary activity},
+  author={Wilson, Steven and Magdy, Walid and McGillivray, Barbara and Tyson, Gareth},
+  booktitle={12th ACM Conference on Web Science},
+  pages={155--163},
+  year={2020},
+  abstract={As an online, crowd-sourced, open English-language slang dictionary, the Urban Dictionary platform contains a wealth of opinions, jokes, and definitions of terms, phrases, acronyms, and more. However, it is unclear exactly how activity on this platform relates to larger conversations happening elsewhere on the web, such as discussions on larger, more popular social media platforms. In this research, we study the temporal activity trends on Urban Dictionary and provide the first analysis of how this activity relates to content being discussed on a major social network: Twitter. By collecting the whole of Urban Dictionary, as well as a large sample of tweets over seven years, we explore the connections between the words and phrases that are defined and searched for on Urban Dictionary and the content that is talked about on Twitter. Through a series of cross-correlation calculations, we identify cases in which Urban Dictionary activity closely reflects the larger conversation happening on Twitter. Then, we analyze the types of terms that have a stronger connection to discussions on Twitter, finding that Urban Dictionary activity that is positively correlated with Twitter is centered around terms related to memes, popular public figures, and offline events. Finally, We explore the relationship between periods of time when terms are trending on Twitter and the corresponding activity on Urban Dictionary, revealing that new definitions are more likely to be added to Urban Dictionary for terms that are currently trending on Twitter.},
+  pdf={wilson.websci20.pdf},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+
+@inproceedings{ruan-etal-2016-finding,
+    abbr={ACL},
+  bibtex_show={true},
+    title = "Finding Optimists and Pessimists on {T}witter",
+    author = "Ruan, Xianzhi  and
+      Wilson, Steven  and
+      Mihalcea, Rada",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-2052",
+    doi = "10.18653/v1/P16-2052",
+    pages = "320--325",
+    pdf={https://aclanthology.org/P16-2052.pdf},
+    abstract={Optimism is linked to various personality factors as well as both psychological and physical health, but how does it relate to the way a person tweets? We analyze the online activity of a set of Twitter users in order to determine how well machine learning algorithms can detect a person’s outlook on life by reading their tweets. A sample of tweets from each user is manually annotated in order to establish ground truth labels, and classifiers are trained to distinguish between optimistic and pessimistic users. Our results suggest that the words in people’s tweets provide ample evidence to identify them as optimists, pessimists, or somewhere in between. Additionally, several applications of these trained models are explored.},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{wilson-etal-2016-disentangling,
+    abbr={NLP+CSS},
+  bibtex_show={true},
+    title = "Disentangling Topic Models: A Cross-cultural Analysis of Personal Values through Words",
+    author = "Wilson, Steven  and
+      Mihalcea, Rada  and
+      Boyd, Ryan  and
+      Pennebaker, James",
+    booktitle = "Proceedings of the First Workshop on {NLP} and Computational Social Science",
+    month = nov,
+    year = "2016",
+    address = "Austin, Texas",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W16-5619",
+    doi = "10.18653/v1/W16-5619",
+    pages = "143--152",
+    abstract={We present a methodology based on topic modeling that can be used to identify and quantify sociolinguistic differences between groups of people, and describe a regression method that can disentangle the influences of different attributes of the people in the group (e.g., culture, gender, age). As an example, we explore the concept of personal values, and present a cross-cultural analysis of value-behavior relationships spanning writers from the United States and India.},
+    pdf={https://aclanthology.org/W16-5619.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{wilson2016cultural,
+    abbr = {AAAI-OSSM},
+  bibtex_show={true},
+  title={Cultural influences on the measurement of personal values through words},
+  author={Wilson, Steven and Mihalcea, Rada and Boyd, Ryan L and Pennebaker, James W},
+  booktitle={2016 AAAI Spring Symposium Series: Observational Studies using Social Media Data},
+  year={2016},
+  pdf={wilson.ossm16.pdf},
+  abstract={Texts posted on the web by users from diverse cultures provide a nearly endless source of data that researchers can use to study human thoughts and language patterns. However, unless care is taken to avoid it, models may be developed in one cultural setting and deployed in another, leading to unforeseen consequences. We explore the effects of using models built from a corpus of texts from multiple cultures in order to learn about each represented people group separately. To do this, we employ a topic modeling approach to quantify open-ended writing responses describing personal values and everyday behaviors in two distinct cultures. We show that some topics are more prominent in one culture compared to the other, while other topics are mentioned to similar degrees. Furthermore, our results indicate that culture influences how value-behavior relationships are exhibited. While some relationships exist in both cultural groups, in most cases we see that the observed relations are dependent on the cultural background of the data set under examination.},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{wilson2018building,
+    abbr={SocInfo},
+  bibtex_show={true},
+  title={Building and validating hierarchical lexicons with a case study on personal values},
+  author={Wilson, Steven and Shen, Yiting and Mihalcea, Rada},
+  booktitle={International conference on social informatics},
+  pages={455--470},
+  year={2018},
+  organization={Springer},
+  pdf={wilson.socinfo18.pdf},
+  abstract={We introduce a crowd-powered approach for the creation of a lexicon for any theme given a set of seed words that cover a variety of concepts within the theme. Terms are initially sorted by automatically clustering their embeddings and subsequently rearranged by crowd workers in order to create a tree structure. This type of organization captures hierarchical relationships between concepts and allows for a tunable level of specificity when using the lexicon to collect measurements from a piece of text. We use a lexicon expansion method to increase the overall coverage of the produced resource. Using our proposed approach, we create a hierarchical lexicon of personal values and evaluate its internal and external consistency. We release this novel resource to the community as a tool for measuring value content within text corpora.},
 }
+
+@inproceedings{wilson-mihalcea-2017-measuring,
+    abbr={IJCNLP},
+  bibtex_show={true},
+    title = "Measuring Semantic Relations between Human Activities",
+    author = "Wilson, Steven and Mihalcea, Rada",
+    booktitle = "Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = nov,
+    year = "2017",
+    address = "Taipei, Taiwan",
+    publisher = "Asian Federation of Natural Language Processing",
+    url = "https://aclanthology.org/I17-1067",
+    pages = "664--673",
+    abstract = "The things people do in their daily lives can provide valuable insights into their personality, values, and interests. Unstructured text data on social media platforms are rich in behavioral content, and automated systems can be deployed to learn about human activity on a broad scale if these systems are able to reason about the content of interest. In order to aid in the evaluation of such systems, we introduce a new phrase-level semantic textual similarity dataset comprised of human activity phrases, providing a testbed for automated systems that analyze relationships between phrasal descriptions of people{'}s actions. Our set of 1,000 pairs of activities is annotated by human judges across four relational dimensions including similarity, relatedness, motivational alignment, and perceived actor congruence. We evaluate a set of strong baselines for the task of generating scores that correlate highly with human ratings, and we introduce several new approaches to the phrase-level similarity task in the domain of human activities.",
+    pdf={https://aclanthology.org/I17-1067.pdf},
+}
+
+@inproceedings{li2018text,
+    abbr={SocInfo},
+  bibtex_show={true},
+  title={Text-based detection and understanding of changes in mental health},
+  author={Li, Yaoyiran and Mihalcea, Rada and Wilson, Steven},
+  booktitle={International Conference on Social Informatics},
+  pages={176--188},
+  year={2018},
+  organization={Springer},
+  abstract={Previous work has investigated the identification of mental health issues in social media users, yet the way that users’ mental states and related behavior change over time remains relatively understudied. This paper focuses on online mental health communities and studies how users’ contributions to these communities change over one year. We define a metric called the Mental Health Contribution Index (MHCI), which we use to measure the degree to which users’ contributions to mental health topics change over a one-year period. In this work, we study the relationship between MHCI scores and the online expression of mental health symptoms by extracting relevant linguistic features from user-generated content and conducting statistical analyses. Additionally, we build a classifier to predict whether or not a user’s contributions to mental health subreddits will increase or decrease. Finally, we employ propensity score matching to identify factors that correlate with an increase or a decrease in mental health forum contributions. Our work provides some of the first insights into detecting and understanding social media users’ changes in mental health states over time.},
+   pdf={li.socinfo18.pdf},
+}
+
+@inproceedings{meaney-etal-2020-smash,
+    abbr={SemEval},
+  bibtex_show={true},
+    title = "Smash at {S}em{E}val-2020 Task 7: Optimizing the Hyperparameters of {ERNIE} 2.0 for Humor Ranking and Rating",
+    author = "Meaney, J. A.  and
+      Wilson, Steven  and
+      Magdy, Walid",
+    booktitle = "Proceedings of the Fourteenth Workshop on Semantic Evaluation",
+    month = dec,
+    year = "2020",
+    address = "Barcelona (online)",
+    publisher = "International Committee for Computational Linguistics",
+    url = "https://aclanthology.org/2020.semeval-1.137",
+    pages = "1049--1054",
+    abstract = "The use of pre-trained language models such as BERT and ULMFiT has become increasingly popular in shared tasks, due to their powerful language modelling capabilities. Our entry to SemEval uses ERNIE 2.0, a language model which is pre-trained on a large number of tasks to enrich the semantic and syntactic information learned. ERNIE{'}s knowledge masking pre-training task is a unique method for learning about named entities, and we hypothesise that it may be of use in a dataset which is built on news headlines and which contains many named entities. We optimize the hyperparameters in a regression and classification model and find that the hyperparameters we selected helped to make bigger gains in the classification model than the regression model.",
+    pdf= "https://aclanthology.org/2020.semeval-1.137.pdf",
+}
+
+@inproceedings{hennig-wilson-2020-diachronic,
+    abbr={NLP+CSS},
+  bibtex_show={true},
+    title = "Diachronic Embeddings for People in the News",
+    author = "Hennig, Felix  and
+      Wilson, Steven",
+    booktitle = "Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.nlpcss-1.19",
+    doi = "10.18653/v1/2020.nlpcss-1.19",
+    pages = "173--183",
+    abstract = "Previous English-language diachronic change models based on word embeddings have typically used single tokens to represent entities, including names of people. This leads to issues with both ambiguity (resulting in one embedding representing several distinct and unrelated people) and unlinked references (leading to several distinct embeddings which represent the same person). In this paper, we show that using named entity recognition and heuristic name linking steps before training a diachronic embedding model leads to more accurate representations of references to people, as compared to the token-only baseline. In large news corpus of articles from The Guardian, we provide examples of several types of analysis that can be performed using these new embeddings. Further, we show that real world events and context changes can be detected using our proposed model.",
+    pdf= "https://aclanthology.org/2020.nlpcss-1.19.pdf",
+}
+
+@inproceedings{li-etal-2020-emoji,
+    abbr = {NLP+CSS},
+  bibtex_show={true},
+    title = "Emoji and Self-Identity in {T}witter Bios",
+    author = "Li, Jinhang  and
+      Longinos, Giorgos  and
+      Wilson, Steven  and
+      Magdy, Walid",
+    booktitle = "Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.nlpcss-1.22",
+    doi = "10.18653/v1/2020.nlpcss-1.22",
+    pages = "199--211",
+    abstract = "Emoji are widely used to express emotions and concepts on social media, and prior work has shown that users{'} choice of emoji reflects the way that they wish to present themselves to the world. Emoji usage is typically studied in the context of posts made by users, and this view has provided important insights into phenomena such as emotional expression and self-representation. In addition to making posts, however, social media platforms like Twitter allow for users to provide a short bio, which is an opportunity to briefly describe their account as a whole. In this work, we focus on the use of emoji in these bio statements. We explore the ways in which users include emoji in these self-descriptions, finding different patterns than those observed around emoji usage in tweets. We examine the relationships between emoji used in bios and the content of users{'} tweets, showing that the topics and even the average sentiment of tweets varies for users with different emoji in their bios. Lastly, we confirm that homophily effects exist with respect to the types of emoji that are included in bios of users and their followers.",
+    pdf= "https://aclanthology.org/2020.nlpcss-1.22.pdf"
+}
+
+@inproceedings{shen2019measuring,
+    abbr={SocInfo},
+  bibtex_show={true},
+  title={Measuring personal values in cross-cultural user-generated content},
+  author={Shen, Yiting and Wilson, Steven and Mihalcea, Rada},
+  booktitle={International Conference on Social Informatics},
+  pages={143--156},
+  year={2019},
+  organization={Springer},
+  pdf={shen.socinfo19.pdf},
+  abstract={There are several standard methods used to measure personal values, including the Schwartz Values Survey and the World Values Survey. While these tools are based on well-established questionnaires, they are expensive to administer at a large scale and rely on respondents to self-report their values rather than observing what people actually choose to write about. We employ a lexicon-based method that can computationally measure personal values on a large scale. Our approach is not limited to word-counting as we explore and evaluate several alternative approaches to quantifying the usage of value-related themes in a given document. We apply our methodology to a large blog dataset comprised of text written by users from different countries around the world in order to quantify cultural differences in the expression of person values on blogs. Additionally, we analyze the relationship between the value themes expressed in blog posts and the values measured for some of the same countries using the World Values Survey.},
+}
+
+@inproceedings{wilson-mihalcea-2019-predicting,
+    abbr={ACL},
+  bibtex_show={true},
+  selected={true},
+    title = "Predicting Human Activities from User-Generated Content",
+    author = "Wilson, Steven  and
+      Mihalcea, Rada",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1245",
+    doi = "10.18653/v1/P19-1245",
+    pages = "2572--2582",
+    abstract = "The activities we do are linked to our interests, personality, political preferences, and decisions we make about the future. In this paper, we explore the task of predicting human activities from user-generated content. We collect a dataset containing instances of social media users writing about a range of everyday activities. We then use a state-of-the-art sentence embedding framework tailored to recognize the semantics of human activities and perform an automatic clustering of these activities. We train a neural network model to make predictions about which clusters contain activities that were performed by a given user based on the text of their previous posts and self-description. Additionally, we explore the degree to which incorporating inferred user traits into our model helps with this prediction task.",
+    pdf={https://aclanthology.org/P19-1245.pdf},
+}
+
+@phdthesis{wilson2019natural,
+    abbr={Thesis},
+  bibtex_show={true},
+  title={Natural language processing for personal values and human activities},
+  author={Wilson, Steven},
+  year={2019},
+  pdf={https://deepblue.lib.umich.edu/bitstream/handle/2027.42/150025/steverw_1.pdf},
+  abstract={Personal values are theorized to influence thought and decision making patterns, which often manifest themselves in the things that people say and do. We explore the degree to which we can employ computational models to infer people's values from the text that they write and the everyday activities that they perform. In addition to investigating how personal values are expressed in language, we use natural language processing methods to automatically discover relationships between a person's values, behaviors, and cultural background. To this end, we show that the automatic analysis of less constrained, open-ended essay questions leads to a model of personal values that is more strongly connected to behaviors than traditional forced-choice value surveys, and that cultural background has a significant influence these connections. To help measure personal values in textual data, we use a novel crowd-powered sorting algorithm to construct a hierarchical lexicon of words and phrases related to human values. Additionally, we develop semantic representations of human activities that capture a variety of useful dimensions such the motivation for which they are typically done. We leverage these representations to build deep neural models that are able to make predictions about a person's activities based on their observed linguistic patterns and inferred values.},
+}
+
+@article{zhang2018direct,
+  abbr={ArXiv},
+  bibtex_show={true},
+  title={Direct network transfer: Transfer learning of sentence embeddings for semantic similarity},
+  author={Zhang, Li and Wilson, Steven. and Mihalcea, Rada},
+  journal={arXiv preprint arXiv:1804.07835},
+  year={2018},
+    arxiv={1804.07835},
+  abstract={Sentence encoders, which produce sentence embeddings using neural networks, are typically evaluated by how well they transfer to downstream tasks. This includes semantic similarity, an important task in natural language understanding. Although there has been much work dedicated to building sentence encoders, the accompanying transfer learning techniques have received relatively little attention. In this paper, we propose a transfer learning setting specialized for semantic similarity, which we refer to as direct network transfer. Through experiments on several standard text similarity datasets, we show that applying direct network transfer to existing encoders can lead to state-of-the-art performance. Additionally, we compare several approaches to transfer sentence encoders to semantic similarity tasks, showing that the choice of transfer learning setting greatly affects the performance in many cases, and differs by encoder and dataset.},
+}
+
+@inproceedings{bahgat2020towards,
+    abbr={ICWSM},
+  bibtex_show={true},
+  title={Towards Using Word Embedding Vector Space for Better Cohort Analysis},
+  author={Bahgat, Mohamed and Wilson, Steve and Magdy, Walid},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={14},
+  pages={919--923},
+  year={2020},
+  abstract={On websites like Reddit, users join communities where they discuss specific topics which cluster them into possible cohorts. The authors within these cohorts have the opportunity to post more openly under the blanket of anonymity, and such openness provides a more accurate signal on the real issues individuals are facing. Some communities contain discussions about mental health struggles such as depression and suicidal ideation. To better understand and analyse these individuals, we propose to exploit properties of word embeddings that group related concepts close to each other in the embeddings space. For the posts from each topically situated sub-community, we build a word embeddings model and use handcrafted lexicons to identify emotions, values and psycholinguistically relevant concepts. We then extract insights into ways users perceive these concepts by measuring distances between them and references made by users either to themselves, others or other things around them. We show how our proposed approach can extract meaningful signals that go beyond the kinds of analyses performed at the individual word level.},
+  pdf={https://ojs.aaai.org/index.php/ICWSM/article/view/7358/7212},
+}
+
+@inproceedings{zhang-etal-2019-multi,
+    abbr={*SEM},
+  bibtex_show={true},
+    title = "Multi-Label Transfer Learning for Multi-Relational Semantic Similarity",
+    author = "Zhang, Li  and
+      Wilson, Steven  and
+      Mihalcea, Rada",
+    booktitle = "Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*{SEM} 2019)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/S19-1005",
+    doi = "10.18653/v1/S19-1005",
+    pages = "44--50",
+    abstract = "Multi-relational semantic similarity datasets define the semantic relations between two short texts in multiple ways, e.g., similarity, relatedness, and so on. Yet, all the systems to date designed to capture such relations target one relation at a time. We propose a multi-label transfer learning approach based on LSTM to make predictions for several relations simultaneously and aggregate the losses to update the parameters. This multi-label regression approach jointly learns the information provided by the multiple relations, rather than treating them as separate tasks. Not only does this approach outperform the single-task approach and the traditional multi-task learning approach, but it also achieves state-of-the-art performance on all but one relation of the Human Activity Phrase dataset.",
+    pdf="https://aclanthology.org/S19-1005.pdf",
+}
+
+@article{radev2016cruciform,
+  abbr={arXiv},
+  bibtex_show={true},
+  title={Cruciform: Solving crosswords with natural language processing},
+  author={Radev, Dragomir and Zhang, Rui and Wilson, Steve and Van Assche, Derek and Gubert, Henrique Spyra and Krivokapic, Alisa and Dong, MeiXing and Wu, Chongruo and Bondera, Spruce and Brandl, Luke and others},
+  journal={arXiv preprint arXiv:1611.02360},
+  year={2016},
+  arxiv={1611.02360},
+  abstract={Crossword puzzles are popular word games that require not only a large vocabulary, but also a broad knowledge of topics. Answering each clue is a natural language task on its own as many clues contain nuances, puns, or counter-intuitive word definitions. Additionally, it can be extremely difficult to ascertain definitive answers without the constraints of the crossword grid itself. This task is challenging for both humans and computers. We describe here a new crossword solving system, Cruciform. We employ a group of natural language components, each of which returns a list of candidate words with scores when given a clue. These lists are used in conjunction with the fill intersections in the puzzle grid to formulate a constraint satisfaction problem, in a manner similar to the one used in the Dr. Fill system. We describe the results of several of our experiments with the system.}
+}
+
+
+@inproceedings{burdick2019building,
+  abbr={TAC},
+  bibtex_show={true},
+  title={Building a Flexible Knowledge Graph to Capture Real-World Events.},
+  author={Burdick, Laura and Ignat, Oana and Zhang, Yiming and Mihalcea, Rada and Wang, Mingzhe and Wilson, Steven and Wei, Yumou and Deng, Jia},
+  booktitle={TAC},
+  year={2019},
+  pdf={https://tac.nist.gov/publications/2019/participant.papers/TAC2019.michigan.proceedings.pdf},
+}
+
+@article{pappas2016stateology,
+  abbr={arXiv},
+  bibtex_show={true},
+  title={Stateology: State-level interactive charting of language, feelings, and values},
+  author={Pappas, Konstantinos and Wilson, Steven and Mihalcea, Rada},
+  journal={arXiv preprint arXiv:1612.06685},
+  year={2016},
+  abstract={People's personality and motivations are manifest in their everyday language usage. With the emergence of social media, ample examples of such usage are procurable. In this paper, we aim to analyze the vocabulary used by close to 200,000 Blogger users in the U.S. with the purpose of geographically portraying various demographic, linguistic, and psychological dimensions at the state level. We give a description of a web-based tool for viewing maps that depict various characteristics of the social media users as derived from this large blog dataset of over two billion words.},
+  arxiv={1612.06685}
+}
+
+@inproceedings{wilson-etal-2020-embedding,
+    abbr={Insights},
+  bibtex_show={true},
+    title = "Embedding Structured Dictionary Entries",
+    author = "Wilson, Steven  and
+      Magdy, Walid  and
+      McGillivray, Barbara  and
+      Tyson, Gareth",
+    booktitle = "Proceedings of the First Workshop on Insights from Negative Results in NLP",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.insights-1.18",
+    doi = "10.18653/v1/2020.insights-1.18",
+    pages = "117--125",
+    abstract = "Previous work has shown how to effectively use external resources such as dictionaries to improve English-language word embeddings, either by manipulating the training process or by applying post-hoc adjustments to the embedding space. We experiment with a multi-task learning approach for explicitly incorporating the structured elements of dictionary entries, such as user-assigned tags and usage examples, when learning embeddings for dictionary headwords. Our work generalizes several existing models for learning word embeddings from dictionaries. However, we find that the most effective representations overall are learned by simply training with a skip-gram objective over the concatenated text of all entries in the dictionary, giving no particular focus to the structure of the entries.",
+    pdf={https://aclanthology.org/2020.insights-1.18.pdf},
+}
+
+@inproceedings{wilson2020urban,
+    abbr={LREC},
+    bibtex_show={true},
+    title = "Urban Dictionary Embeddings for Slang {NLP} Applications",
+    author = "Wilson, Steven  and
+      Magdy, Walid  and
+      McGillivray, Barbara  and
+      Garimella, Kiran  and
+      Tyson, Gareth",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.586",
+    pages = "4764--4773",
+    abstract = "The choice of the corpus on which word embeddings are trained can have a sizable effect on the learned representations, the types of analyses that can be performed with them, and their utility as features for machine learning models. To contribute to the existing sets of pre-trained word embeddings, we introduce and release the first set of word embeddings trained on the content of Urban Dictionary, a crowd-sourced dictionary for slang words and phrases. We show that although these embeddings are trained on fewer total tokens (by at least an order of magnitude compared to most popular pre-trained embeddings), they have high performance across a range of common word embedding evaluations, ranging from semantic similarity to word clustering tasks. Further, for some extrinsic tasks such as sentiment analysis and sarcasm detection where we expect to require some knowledge of colloquial language on social media data, initializing classifiers with the Urban Dictionary Embeddings resulted in improved performance compared to initializing with a range of other well-known, pre-trained embeddings that are order of magnitude larger in size.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+    pdf= "https://aclanthology.org/2020.lrec-1.586.pdf",
+}
+
+@inproceedings{rechkemmer-etal-2020-small,
+    abbr={LREC},
+  bibtex_show={true},
+    title = "Small Town or Metropolis? Analyzing the Relationship between Population Size and Language",
+    author = "Rechkemmer, Amy  and
+      Wilson, Steven  and
+      Mihalcea, Rada",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.771",
+    pages = "6287--6291",
+    abstract = "The variance in language used by different cultures has been a topic of study for researchers in linguistics and psychology, but often times, language is compared across multiple countries in order to show a difference in culture. As a geographically large country that is diverse in population in terms of the background and experiences of its citizens, the U.S. also contains cultural differences within its own borders. Using a set of over 2 million posts from distinct Twitter users around the country dating back as far as 2014, we ask the following question: is there a difference in how Americans express themselves online depending on whether they reside in an urban or rural area? We categorize Twitter users as either urban or rural and identify ideas and language that are more commonly expressed in tweets written by one population over the other. We take this further by analyzing how the language from specific cities of the U.S. compares to the language of other cities and by training predictive models to predict whether a user is from an urban or rural area. We publicly release the tweet and user IDs that can be used to reconstruct the dataset for future studies in this direction.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+    pdf = "https://aclanthology.org/2020.lrec-1.771.pdf",
+}
+
+
+@inproceedings{wendlandt2018entity,
+    abbr={TAC},
+  bibtex_show={true},
+  title={Entity and Event Extraction from Scratch Using Minimal Training Data.},
+  author={Wendlandt, Laura and Wilson, Steve and Ignat, Oana and Welch, Charles and Zhang, Li and Wang, Mingzhe and Deng, Jia and Mihalcea, Rada},
+  booktitle={TAC},
+  year={2018},
+  pdf={https://tac.nist.gov/publications/2018/participant.papers/TAC2018.Michigan.proceedings.pdf},
+}
+
+@inproceedings{boyd2015values,
+  abbr={ICWSM},
+  bibtex_show={true},
+  selected={true},
+  title={Values in words: Using language to evaluate and understand personal values},
+  author={Boyd, Ryan and Wilson, Steven and Pennebaker, James and Kosinski, Michal and Stillwell, David and Mihalcea, Rada},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={9},
+  number={1},
+  year={2015},
+  pdf={https://ojs.aaai.org/index.php/ICWSM/article/view/14589/14438},
+  abstract={People's values provide a decision-making framework that helps guide their everyday actions. Most popular methods of assessing values show tenuous relationships with everyday behaviors. Using a new Amazon Mechanical Turk dataset (N = 767) consisting of people's language, values, and behaviors, we explore the degree to which attaining "ground truth" is possible with regards to such complicated mental phenomena. We then apply our findings to a corpus of Facebook user (N=130,828) status updates in order to understand how core values influence the personal thoughts and behaviors that users share through social media. Our findings suggest that self-report questionnaires for abstract and complex phenomena, such as values, are inadequate for painting an accurate picture of individual mental life. Free response language data and language modeling show greater promise for understanding both the structure and content of concepts such as values and, additionally, exhibit a predictive edge over self-report questionnaires.}
+}
+

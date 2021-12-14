@@ -8,6 +8,10 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+.smaller-h1 {
+    font-size: 50%;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -413,11 +417,11 @@ footer.sticky-bottom {
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
+          color: var(--global-bg-color) !important;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
           a {
-            color: white;
             &:hover {
               text-decoration: none;
             }
@@ -562,4 +566,22 @@ html.transition *:after {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
   padding-top: 0.25rem;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0.0em;
+}
+
+.cv-post {
+   position: absolute;
+   left: 1em;
+   right: 1em;
+}
+
+.bottom-margin-small {
+    margin-bottom: 1em;
+}
+
+.centered-td {
+    vertical-align: middle !important;
 }

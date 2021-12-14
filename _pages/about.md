@@ -2,23 +2,35 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-
+description: Assistant Professor of Computer Science
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>346 Engineering Center<br/>
+    115 Library Drive<br/>
+    Rochester, MI, 48309</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<p>
+<a href="https://steverw.com">Steve</a> ϵ OaklandNLP &sub; <a href="https://oakland.edu/secs/departments/cse/" target="_blank">CSE</a> &sub; <a href="https://oakland.edu/secs/" target="_blank">SECS</a> &sub; <a href="https://oakland.edu/" target="_blank">Oakland University</a>
+</p>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<p>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I study online communication using Natural Language Processing methods with a focus on understanding and incorporating the social context of text data and the people that create it.
+<!--I've used computational methods to study how language use is related to things like personal values, everyday activities, optimism, mental health, cultural background, and city size.
+The informal nature of many online social interactions also requires NLP systems to deal with a variety of interesting linguistic phenomena, and so I have also worked on approaches to model things like sarcasm, humor, offensive language, references to people, and emojis.
+I'm also highly interested in the ethical implications and societal impact of AI/NLP technology and AI/NLP education. -->
+</p>
+<p>
+                    I completed my PhD at the <a href="https://umich.edu" target="_blank">University of Michigan</a> where I was a member of the <a href="http://lit.eecs.umich.edu/" target="_blank">LIT Lab</a>. :part_alternation_mark: Go Blue!
+                    After that, I spent a couple of years working as a postdoc in the <a href="http://smash.inf.ed.ac.uk/" target="_blank">SMASH</a> group at the <a href="https://www.ed.ac.uk/" target="_blank">University of Edinburgh</a>.
+ </p>
+ <p>
+                    ✨I am <a href="https://twitter.com/SteveWilsonNLP/status/1430542796319076353" target="_blank">looking for a PhD student</a> starting Fall 2022✨ Feel free to reach out if you are interested in working together on research projects using NLP for Computational Social Science. Next <a href="http://catalog.oakland.edu/preview_program.php?catoid=56&poid=10257&returnto=11901" target="_blank">application</a> deadline: Feb 15, 2022.
+</p>
