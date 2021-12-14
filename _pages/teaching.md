@@ -2,11 +2,38 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I have taught.
 nav: true
 nav_order: 6
+sort-order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="teaching">
 
-Organize your courses by years, topics, or universities, however you like!
+    <h2 class="university"><a href="https://oakland.edu">Oakland University</a></h2>
+    <h4 class="year">Winter 2022</h4>
+    <p>
+    CSI 3450: Database Design and Implementation
+    </p>
+    <h4 class="year">Fall 2021</h4>
+    <p>
+    CSI 3450: Database Design and Implementation
+    </p>
+
+    <h2 class="university"><a href="https://ed.ac.uk">University of Edinburgh</a></h2>
+    <h4 class="year">Fall 2020 - Winter 2021</h4>
+    <p>
+    INFR11145: Text Technologies for Data Science
+    </p>
+
+    <h2 class="university"><a href="https://umich.edu">University of Michigan</a></h2>
+    <h4 class="year">Fall 2017</h4>
+    <p>
+    (TA) EECS 498/595: Natural Language Processing
+    </p>
+    <h4 class="year">Fall 2013</h4>
+    <p>
+    (TA) EECS 280: Programming and Introductory Data Structures
+    </p>
+
+</div>
