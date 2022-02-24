@@ -14,6 +14,10 @@ sort-order: 2
     <p>
     CSI 3450: Database Design and Implementation
     </p>
+    <p>
+    CSI 5970: Independent Study (Computational Social Science)
+    </p>
+
     <h4 class="year">Fall 2021</h4>
     <p>
     CSI 3450: Database Design and Implementation
