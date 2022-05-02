@@ -29,8 +29,5 @@ I'm also highly interested in the ethical implications and societal impact of AI
 </p>
 <p>
                     I completed my PhD at the <a href="https://umich.edu" target="_blank">University of Michigan</a> where I was a member of the <a href="http://lit.eecs.umich.edu/" target="_blank">LIT Lab</a>. :part_alternation_mark: Go Blue!
-                    After that, I spent a couple of years working as a postdoc in the <a href="http://smash.inf.ed.ac.uk/" target="_blank">SMASH</a> group at the <a href="https://www.ed.ac.uk/" target="_blank">University of Edinburgh</a>.
+                    After that, I spent a couple of years working as a postdoc in the <a href="http://smash.inf.ed.ac.uk/" target="_blank">SMASH</a> group at the <a href="https://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> before moving to OU.
  </p>
- <p>
-                    ✨I am <a href="https://twitter.com/SteveWilsonNLP/status/1430542796319076353" target="_blank">looking for a PhD student</a> starting Fall 2022✨ Feel free to reach out if you are interested in working together on research projects using NLP for Computational Social Science. <a href="http://catalog.oakland.edu/preview_program.php?catoid=56&poid=10257&returnto=11901" target="_blank">Details about the PhD program.</a>
-</p>
