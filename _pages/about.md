@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>346 Engineering Center<br/>
+    <p>518 Engineering Center<br/>
     115 Library Drive<br/>
     Rochester, MI, 48309</p>
 
