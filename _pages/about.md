@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <p>
-<a href="https://steverw.com">Steve</a> ϵ <a href="https://ou-nlp.github.io " target="_blank">OaklandNLP</a> &sub; <a href="https://oakland.edu/secs/departments/cse/" target="_blank">CSE</a> &sub; <a href="https://oakland.edu/secs/" target="_blank">SECS</a> &sub; <a href="https://oakland.edu/" target="_blank">Oakland University</a>
+<a href="https://steverw.com">Steve</a> ϵ <a href="https://ou-nlp.github.io" target="_blank">OaklandNLP</a> &sub; <a href="https://oakland.edu/secs/departments/cse/" target="_blank">CSE</a> &sub; <a href="https://oakland.edu/secs/" target="_blank">SECS</a> &sub; <a href="https://oakland.edu/" target="_blank">Oakland University</a>
 </p>
 
 <p>
