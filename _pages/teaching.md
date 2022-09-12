@@ -11,6 +11,8 @@ sort-order: 2
 <div class="teaching">
 
     <h2 class="university"><a href="https://oakland.edu">Oakland University</a></h2>
+    <h4 class="year">Fall 2022</h2>
+    CSI 3450: Database Design and Implementation
     <h4 class="year">Winter 2022</h4>
     <p>
     CSI 3450: Database Design and Implementation
