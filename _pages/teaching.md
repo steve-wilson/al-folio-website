@@ -11,8 +11,17 @@ sort-order: 2
 <div class="teaching">
 
     <h2 class="university"><a href="https://oakland.edu">Oakland University</a></h2>
+
+    <h4 class="year">Winter 2023</h4>
+    <p>
+    CSI 4900/5900: Special Topics: Natural Langauge Processing
+    </p>
+
     <h4 class="year">Fall 2022</h4>
+    <p>
     CSI 3450: Database Design and Implementation
+    </p>
+
     <h4 class="year">Winter 2022</h4>
     <p>
     CSI 3450: Database Design and Implementation

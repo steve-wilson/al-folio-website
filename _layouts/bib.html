@@ -210,43 +210,37 @@
               {% elsif entry.isbn %}
                 data-isbn="{{ entry.isbn }}"
               {% endif %}
-              ></span>
-            {%- endif %}
-            {%- if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
-              <span class="__dimensions_badge_embed__"
-              {% if entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% else if entry.pmid %}
-                data-pmid="{{ entry.pmid }}"
+            {% endfor %}
+          {% endif %}
+          
+          {% if forloop.length == 1 %}
+            {% if author_is_self %}
+              <em>{{author.first}} {{author.last}}</em>
+            {% else %}
+              {{author.first}} {{author.last}}
+            {% endif %}
+          {% else %}
+            {% unless forloop.last %}
+              {% if author_is_self %}
+                <em>{{author.first}} {{author.last}}</em>,
               {% else %}
-                data-id="{{ entry.dimensions }}"
+                {% if coauthor_url %}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,
+                {% else %}
+                  {{author.first}} {{author.last}},
+                {% endif %}
               {% endif %}
-              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-            {%- endif %}
-          </div>
-          {%- endif %}
-          {%- endif %}
-
-          {% if entry.abstract -%}
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>{{ entry.abstract }}</p>
-          </div>
-          {%- endif -%}
-
-          {% if entry.bibtex_show -%}
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
-          </div>
-          {%- endif %}
-
-          {% if entry.video -%}
-          <!-- Hidden video block -->
-          <div class="abstract hidden">
-            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
-          </div>
-          {%- endif -%}
-
-        </div>
+            {% else %}
+              {% if author_is_self %}
+                and <em>{{author.first}} {{author.last}}</em>
+              {% else %}
+                {% if coauthor_url %}
+                  and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {% else %}
+                  and {{author.first}} {{author.last}}
+                {% endif %}
+              {% endif %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
       </div>
