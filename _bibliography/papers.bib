@@ -1,46 +1,88 @@
 ---
 ---
 
+@inproceedings{sarker-esem-2023,
+    bibtex_show={true},
+    abbr={ESEM},
+    title="ToxiSpanSE: An Explainable Toxicity Detection in
+Code Review Comments",
+    author="Sarker, Jaydeb and
+            Sultana, Sayma and
+            Wilson, Steven R. and
+            Bosu, Amiangshu",
+    booktitle = "Proceedings of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
+    month= oct,
+    year=2023,
+    abstract = "Background: The existence of toxic conversations in open-source platforms can degrade relationships among software developers and may negatively impact software product quality. To help mitigate this, some initial work has been done to detect toxic comments in the Software Engineering (SE) domain.Aims: Since automatically classifying an entire text as toxic or non-toxic does not help human moderators to understand the specific reason(s) for toxicity, we worked to develop an explainable toxicity detector for the SE domain. Method: Our explainable toxicity detector can detect specific spans of toxic content from SE texts, which can help human moderators by automatically highlighting those spans. This toxic span detection model, ToxiSpanSE, is trained with the 19,651 code review (CR) comments with labeled toxic spans. Our annotators labeled the toxic spans within 3,757 toxic CR samples. We explored several types of models, including one lexicon-based approach and five different transformer-based encoders. Results: After an extensive evaluation of all models, we found that our fine-tuned RoBERTa model achieved the best score with 0.88 F1, 0.87 precision, and 0.93 recall for toxic class tokens, providing an explainable toxicity classifier for the SE domain. Conclusion: Since ToxiSpanSE is the first tool to detect toxic spans in the SE domain, this tool will pave a path to combat toxicity in the SE community.",
+}
+
+@inproceedings{saravanan-semeval-2023,
+    bibtex_show={true},
+    abbr={SemEval},
+    title="Mr-wallace at SemEval-2023 Task 5: Novel Clickbait Spoiling Algorithm
+Using Natural Language Processing",
+    author= "Saravanan, Vineet and
+             Wilson, Steven",
+    booktitle = "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+    month= jul,
+    year = 2023,
+    abstract = "Clickbait creates a nuisance in the online experience by creating a lure towards poor content in order to generate ad revenue. With the use of natural language processing models, we can save users time and reduce the need to follow clickbait links. Task 5 at SemEval-2023 focused on precisely this problem and was broken into two steps: identifying the clickbait spoiler type and then identifying the clickbait itself. Our approach involves the use of fine-tuned text classification and question-answering models. Our classification model is able to determine the type of clickbait with 65.3\% accuracy. The question-answering model exactly spoiled clickbait generated around 42.5\% of the time. Efforts toward solving this task may have an impact by helping to save users' time and quickly give an insight into the answer of what the clickbait/article is about.",
+}
+
 @inproceedings{chen-icwsm-2023,
     bibtex_show={true},
     abbr={ICWSM},
     title="What Are You Anxious About? Examining Subjects of Anxiety during the COVID-19 Pandemic",
     author = "Chen, Lucia and
-              Wilson, Steve and
+              Wilson, Steven and
               Negraia, Daniela and
               Lohmann, Sophie",
     booktitle = "Proceedings of the 17th International AAAI Conference on Web and Social Media",
     month = jun,
-    year = 2023
+    year = 2023,
+    abstract = "COVID-19 poses disproportionate mental health consequences to the public during different phases of the pandemic. We use a computational approach to capture the specific aspects that trigger an online community's anxiety about the pandemic and investigate how these aspects change over time. First, we identified nine subjects of anxiety (SOAs) in a sample of Reddit posts (N=86) from r/COVID19\_support using thematic analysis. Then, we quantified Reddit users' anxiety by training algorithms on a manually annotated sample (N=793) to automatically label the SOAs in a larger chronological sample (N=6,535). The nine SOAs align with items in various recently developed pandemic anxiety measurement scales. We observed that Reddit users' concerns about health risks remained high in the first eight months of the pandemic. These concerns diminished dramatically despite the surge of cases occurring later. In general, users' language disclosing the SOAs became less intense as the pandemic progressed. However, worries about mental health and the future increased steadily throughout the period covered in this study. People also tended to use more intense language to describe mental health concerns than health risks or death concerns. Our results suggest that this online group's mental health condition does not necessarily improve despite COVID-19 gradually weakening as a health threat due to appropriate countermeasures. Our system lays the groundwork for population health and epidemiology scholars to examine aspects that provoke pandemic anxiety in a timely fashion.",
+    pdf="https://ojs.aaai.org/index.php/ICWSM/article/view/22133/21912"
 }
 
 @inproceedings{mcgillivray-evonlp-2022,
     bibtex_show={true},
     abbr={EvoNLP},
-    title="Leveraging time-dependent lexical features for offensive language detection",
-    author = "McGillivray, Barbara and 
-             Alahapperuma, Malithi and 
-             Cook, Jonathan and 
-             Di Bonaventura, Chiara and 
-             Meroño-Peñuela, Albert and 
-             Tyson, Gareth and 
-             Wilson, Steven",
-    booktitle = "Proceedings of the 1st Workshop of Ever Evolving NLP at EMNLP",
+    title = "Leveraging time-dependent lexical features for offensive language detection",
+    author = "McGillivray, Barbara  and
+      Alahapperuma, Malithi  and
+      Cook, Jonathan  and
+      Di Bonaventura, Chiara  and
+      Mero{\~n}o-Pe{\~n}uela, Albert  and
+      Tyson, Gareth  and
+      Wilson, Steven",
+    booktitle = "Proceedings of the The First Workshop on Ever Evolving NLP (EvoNLP)",
     month = dec,
-    year = 2022
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.evonlp-1.7",
+    pages = "39--54",
+    abstract = "We present a study on the integration of time-sensitive information in lexicon-based offensive language detection systems. Our focus is on Offenseval sub-task A, aimed at detecting offensive tweets. We apply a semantic change detection algorithm over a short time span of two years to detect words whose semantics has changed and we focus particularly on those words that acquired or lost an offensive meaning between 2019 and 2020. Using the output of this semantic change detection approach, we train an SVM classifier on the Offenseval 2019 training set. We build on the already competitive SINAI system submitted to Offenseval 2019 by adding new lexical features, including those that capture the change in usage of words and their association with emerging offensive usages. We discuss the challenges, opportunities and limitations of integrating semantic change detection in offensive language detection models. Our work draws attention to an often neglected aspect of offensive language, namely that the meanings of words are constantly evolving and that NLP systems that account for this change can achieve good performance even when not trained on the most recent training data.",
+    pdf="https://aclanthology.org/2022.evonlp-1.7/"
 }
 
 @inproceedings{abu-farha-findings-2022,
     bibtex_show={true},
     abbr={EMNLP-Findings},
-    title="Sarcasm Detection is Way Too Easy! 🙃 An Empirical Comparison of Human and Machine Sarcasm Detection",
+     title = "Sarcasm Detection is Way Too Easy! An Empirical Comparison of Human and Machine Sarcasm Detection",
     author = "Abu Farha, Ibrahim  and
       Wilson, Steven  and
-      Oprea, Silviu Vlad  and
+      Oprea, Silviu  and
       Magdy, Walid",
-    booktitle = "Findings of the Conference on Empirical Methods in Natural Language Processing",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
     month = dec,
-    year = 2022
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.387",
+    pages = "5284--5295",
+    abstract = "Recently, author-annotated sarcasm datasets, which focus on intended, rather than perceived sarcasm, have been introduced. Although datasets collected using first-party annotation have important benefits, there is no comparison of human and machine performance on these new datasets. In this paper, we collect new annotations to provide human-level benchmarks for these first-party annotated sarcasm tasks in both English and Arabic, and compare the performance of human annotators to that of state-of-the-art sarcasm detection systems. Our analysis confirms that sarcasm detection is extremely challenging, with individual humans performing close to or slightly worse than the best trained models. With majority voting, however, humans are able to achieve the best results on all tasks. We also perform error analysis, finding that some of the most challenging examples are those that require additional context. We also highlight common features and patterns used to express sarcasm in English and Arabic such as idioms and proverbs. We suggest that to better capture sarcasm, future sarcasm detection datasets and models should focus on representing conversational and cultural context while leveraging world knowledge and common sense.",
+    pdf="https://aclanthology.org/2022.findings-emnlp.387/"
 }
 
 @inproceedings{elsafoury-coling-2022,
@@ -53,7 +95,13 @@
       Ramzan, Naeem",
     booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
     month = oct,
-    year = "2022"
+    year = "2022",
+    pdf = "https://aclanthology.org/2022.coling-1.108/",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.108",
+    pages = "1263--1274",
+    abstract = "Systematic Offensive stereotyping (SOS) in word embeddings could lead to associating marginalised groups with hate speech and profanity, which might lead to blocking and silencing those groups, especially on social media platforms. In this work, we introduce a quantitative measure of the SOS bias, validate it in the most commonly used word embeddings, and investigate if it explains the performance of different word embeddings on the task of hate speech detection. Results show that SOS bias exists in almost all examined word embeddings and that the proposed SOS bias metric correlates positively with the statistics of published surveys on online extremism. We also show that the proposed metric reveals distinct information compared to established social bias metrics. However, we do not find evidence that SOS bias explains the performance of hate speech detection models based on the different word embeddings.",
 }
 
 @inproceedings{meaney-etal-2022-socinfo,
@@ -69,6 +117,8 @@
     year = "2022",
     address = "Glasgow, Scotland",
     organization={Springer},
+    pdf = "https://link.springer.com/chapter/10.1007/978-3-031-19097-1_2",
+    abstract = "Computational humor detection systems rarely model the subjectivity of humor responses, or consider alternative reactions to humor - namely offense. We analyzed a large dataset of humor and offense ratings by male and female annotators of different age groups. We find that women link these two concepts more strongly than men, and they tend to give lower humor ratings and higher offense scores. We also find that the correlation between humor and offense increases with age. Although there were no gender or age differences in humor detection, women and older annotators signalled that they did not understand joke texts more often than men. We discuss implications for computational humor detection and downstream tasks.",
 }
 
 @inproceedings{elsafoury-socialnlp-2022,
