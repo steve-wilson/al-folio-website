@@ -11,6 +11,10 @@ sort-order: 2
 <div class="teaching">
 
     <h2 class="university"><a href="https://oakland.edu">Oakland University</a></h2>
+    <h4 class="year">Fall 2023</h4>
+    <p>
+    CSI 4180/5180: Natural Langauge Processing
+    </p>
 
     <h4 class="year">Winter 2023</h4>
     <p>
