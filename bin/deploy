@@ -91,6 +91,8 @@ then
 fi
 git checkout -b $DEPLOY_BRANCH
 
+# Update if needed
+bundle update --bundler
 # Build site
 bundle exec jekyll build
 
