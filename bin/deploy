@@ -92,6 +92,8 @@ git checkout -b $DEPLOY_BRANCH
 # Export JEKYLL_ENV=production
 export JEKYLL_ENV=production
 
+# Update if needed
+#bundle update --bundler
 # Build site
 bundle exec jekyll build --lsi
 
