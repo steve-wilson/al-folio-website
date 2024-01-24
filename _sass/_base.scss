@@ -683,7 +683,6 @@ footer.sticky-bottom {
           padding-right: 1rem;
 
           a {
-            color: white;
             &:hover {
               text-decoration: none;
             }
@@ -1074,6 +1073,24 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0.0em;
+}
+
+.cv-post {
+   position: absolute;
+   left: 1em;
+   right: 1em;
+}
+
+.bottom-margin-small {
+    margin-bottom: 1em;
+}
+
+.centered-td {
+    vertical-align: middle !important;
 }
 
 .no-bottom-margin {

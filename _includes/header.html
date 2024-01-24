@@ -43,6 +43,7 @@
           </li>
           -->
           {% endif %}
+<<<<<<< HEAD
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -57,6 +58,16 @@
               {%- for page in site.pages -%}
                 {% if page.permalink == '/' %}
                   {% assign about_title = page.title %}
+          <!-- Other pages 
+          {% assign sorted_pages = site.pages | sort: "sort-order" %}
+          {% for p in sorted_pages %}
+          {% if p.nav and p.autogen == nil %}
+          {% if p.dropdown %}
+          <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ p.title }}
+                {% if page.title == p.title %}
+                <span class="sr-only">(current)</span> --->
                 {% endif %}
               {% endfor %}
               </div>
@@ -73,6 +84,13 @@
           {% endif %}
           {% endif %}
           {% endfor %}
+          <!-- CV OLD METHOD -- now using a page directly with iframe embed
+          {% if site.cv %}
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="{{ site.cv |  prepend: '/assets/pdf/' | relative_url }}">
+              cv
+              </a>
+          </li> -->
           {% endif %}
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
