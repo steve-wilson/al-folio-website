@@ -10,6 +10,7 @@ profile:
     <p>518 Engineering Center<br/>
     115 Library Drive<br/>
     Rochester, MI, 48309</p>
+  image_circular: true
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
