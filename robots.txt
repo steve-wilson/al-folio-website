@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://steverw.com//sitemap.xml
+Sitemap: https://steverw.com/pages/steve-wilson/sitemap.xml
