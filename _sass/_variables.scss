@@ -33,11 +33,13 @@ $black-color: #000000 !default;
 // Custom colors
 $gold-color:          #bc945b !default;
 $gold-color-light:    lighten($gold-color, 40%);
+$gold-color2:         #a67c19 !default;
 $grey-color-lighter:  lighten($grey-color, 60%);
 $blue-grey-color:     #383985 !default;
 $deep-purple-color:   #5028a8 !default;
 $forest-color:        #28824b !default;
 $deep-blue-color:     #0d0b2e !default;
+$deep-blue-color2:    #00162b !default;
 $nice-red-color:      #a14433 !default;
 $nice-red-color-light:#e38d8d !default;
 $teal-color:          #80ffd7 !default;
@@ -45,6 +47,13 @@ $lemon-color:         #ffea8f !default;
 $lilac-color:         #d5c4f2 !default;
 $sky-color:           #97b1f0 !default;
 $dirt-color:          #917450 !default;
+$purple2-color:       #5922c7 !default;
+$um-blue-color:       #00274c !default;
+$um-maize-color:      #ffcb05 !default;
+$um-ablue2-color:     #2f65a7 !default;
+$um-violet-color:     #575294 !default;
+$um-green-color:      #75988d !default;
+$um-stone-color:      #655A52 !default;
 // Theme colors
 
 $code-bg-color-light:     rgba($deep-blue-color, 0.05);

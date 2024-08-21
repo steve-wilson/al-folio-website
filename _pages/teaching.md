@@ -9,7 +9,19 @@ nav-order: 2
 
 <div class="teaching">
 
+    <h2 class="university"><a href="https://umflint.edu">University of Michigan-Flint</a></h2>
+    <h4 class="year">Fall 2024</h4>
+    <p>
+    ARI 410/510: Machine Learning
+    </p>
+
     <h2 class="university"><a href="https://oakland.edu">Oakland University</a></h2>
+
+    <h4 class="year">Summer 2024</h4>
+    <p>
+    CSI 4900/5900: ST: Data Visualization
+    </p>
+
     <h4 class="year">Winter 2024</h4>
     <p>
     CSI 4180/5180: Natural Langauge Processing

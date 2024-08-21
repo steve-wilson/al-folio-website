@@ -6,8 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Steven
 middle_name: R.
 last_name: Wilson
-job_title: Assistant Professor of Computer Science
-email: stevenwilson@oakland.edu
+job_title: Assistant Professor
+email: steverw@umich.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Academic website for Steve Wilson. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
